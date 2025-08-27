@@ -209,6 +209,8 @@ Função educacional que mostra o funcionamento detalhado do algoritmo com um ex
 
 ```
 src/
+   img/
+   └── main.py       # Imagem do Grafo de Fluxo
 └── main.py          # Implementação completa do algoritmo
 README.md            # Documentação completa do projeto
 ```
@@ -369,25 +371,7 @@ A **complexidade ciclomática** mede a complexidade estrutural de um programa at
 
 **Função `karatsuba(x, y)`:**
 
-```
-1. [INÍCIO] → Validação de tipos
-2. [DECISÃO] isinstance(x, int) and isinstance(y, int)?
-   ├─ NÃO → [EXCEÇÃO] TypeError
-   └─ SIM → Continue
-3. [DECISÃO] x < 0 or y < 0?
-   ├─ SIM → [EXCEÇÃO] ValueError  
-   └─ NÃO → Continue
-4. [DECISÃO] x < 10 or y < 10?
-   ├─ SIM → [RETORNO] x * y
-   └─ NÃO → Continue
-5. [PROCESSAMENTO] Cálculo de n_x, n_y, n
-6. [DECISÃO] abs(n_x - n_y) > n // 2?
-   ├─ SIM → [RETORNO] x * y
-   └─ NÃO → Continue
-7. [PROCESSAMENTO] Divisão dos números
-8. [RECURSÃO] Três chamadas recursivas
-9. [RETORNO] Resultado final
-```
+<img src="./images/mermaid-diagram-2025-08-27-190659.png" alt="Grafo de Fluxo" width="500">
 
 #### 📈 Cálculo da Complexidade Ciclomática
 
