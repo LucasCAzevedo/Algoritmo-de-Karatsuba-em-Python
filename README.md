@@ -371,7 +371,7 @@ A **complexidade ciclomática** mede a complexidade estrutural de um programa at
 
 **Função `karatsuba(x, y)`:**
 
-<img src="./images/mermaid-diagram-2025-08-27-190659.png" alt="Grafo de Fluxo" width="500">
+<img src="./img/mermaid-diagram-2025-08-27-190659.png" alt="Grafo de Fluxo" width="500">
 
 #### 📈 Cálculo da Complexidade Ciclomática
 
